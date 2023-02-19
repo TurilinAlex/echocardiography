@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "echocardiography"
+version = "0.1.0"
+description = "Investigation of the possibilities of the machine for the analysis of echocardiograms"
+authors = ["turilin <turilin@primatlab.com>"]
+license = "Apache License 2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+jupyter = "^1.0.0"
+librosa = "^0.9.2"
+matplotlib = "^3.7.0"
+progressbar = "^2.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
