@@ -58,7 +58,7 @@ __
 
 .. code-block:: python
 
-    audio_path = './training/training-a/a0001.wav'
+    audio_path = './data_training/training-a/a0001.wav'
     y, sr = librosa.load(audio_path)
     print(f'Тип y: {type(y)} sr: {type(sr)}')
     print(f'Размер аудиофайла: {y.shape}, Частота дискретизации: {sr}')
